@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "word_counter_upchunk"
-version = "1.1.0"
+version = "1.1.1"
 authors = [
   { name="Habibul Rahman Qalbi", email="habi6799@gmail.com" },
 ]
