@@ -1,20 +1,21 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "word_counter_upchunk"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="Habibul Rahman Qalbi", email="habi6799@gmail.com" },
 ]
 description = "A drop-in-replacement for (discontinued) office-word-count"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License",
+    "Development Status :: 5 - Production/Stable",
 ]
 dependencies = [
   "regex",
